@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img-artebymm/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- SWIPER CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+        <!-- SWIPER JS-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   
+        
+       
+        <title>Artebymm</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="my-header" id="my-header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/img-artebymm/logo.png" alt="logo image">
+                    Artebymm
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Inicio</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Acerca de</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#gallery" class="nav__link">Galería</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="tienda.html" class="nav__link">Tienda</a>
+                        </li>
+
+                        
+
+                    </ul>
+
+                    <!-- Close button -->
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+
+                    <img src="assets/img-artebymm/pincel-4.png" alt="nav image" class="nav__img-1">
+                    <img src="assets/img-artebymm/pincel-3.png" alt="nav image" class="nav__img-2">
+                </div>
+
+                <div class="nav__buttons">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <!-- Toggle button -->
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-apps-2-line"></i>
+                    </div>
+
+                    
+                       
+                    
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img-artebymm/home-lienzo.png" alt="" class="home__img">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Lienzos
+
+                            <div>
+                                <img src="assets/img-artebymm/home-art.png" alt="home image">
+                                Personalizados
+                            </div>
+                        </h1>
+                        <p class="home__description">
+                            Trayendo alegría de la creatividad.
+                        </p>
+
+                        <a href="tienda.html" class="button">
+                            Haz tu pedido <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                
+                <img src="assets/img-artebymm/pincel-3.png" alt="home image" class="home__leaf-1"> 
+                <img src="assets/img-artebymm/pincel-4.png" alt="home image" class="home__leaf-2"> 
+
+            </section>
+
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <span class="section__subtitle">About Us</span>
+                        <h2 class="section__title about__title">
+                            <div>
+                               Ama
+                               <img src="assets/img-artebymm/home-art.png" alt="about image"> 
+                            </div>
+                            lo que ves
+                        </h2>
+                       
+                        <p class="about__description">
+                            Ofrecemos lienzos pintados a mano personalizados donde los clientes pueden convertir sus fotos 
+                            familiares o de mascotas en obras de arte únicas. Cada lienzo es creado por 
+                            una sola artista experta en capturar detalles y expresiones, para crear una pieza personalizada y duradera. 
+                            Hacemos pedidos personalizados a partir de cualquier foto que desees.
+                        </p>
+                    </div>
+
+                    <img src="assets/img-artebymm/lienzo-2d.png" alt="about image" class="about__img" id="about__lienzo">
+                </div>
+                
+                <img src="assets/img-artebymm/pincel-1.png" alt="about image" class="about__leaf">
+            </section>
+            
+            <!-- ======================== GALLERY ====================== -->
+
+            <section class="gallery_section" id="gallery">
+                <div class="gallery__container container grid">
+
+                    <div class="gallery__data">
+                        <span class="gallery__subtitle">Nuestra</span>
+                        <h2 class="gallery__title">Galería</h2>  
+                    </div>
+
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="assets/carousel/uno.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/carousel/dos.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/carousel/tres.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/carousel/cuatro.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/carousel/cinco.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/carousel/seis.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/carousel/siete.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/carousel/ocho.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/carousel/nueve.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/carousel/diez.png" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div> 
+                </div>
+            </section>
+
+            <!-- Initialize Swiper -->
+
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    spaceBetween: 30,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            </script>
+
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        <img src="assets/img-artebymm/logo.png" alt="logo image">
+                        Artebymm
+                    </a>
+
+                    <p class="footer__description">
+                        Trayendo alegría <br>
+                        de la creatividad. <br>
+                    </p>
+                </div>
+
+                <div class="footer__content">
+    
+                    <div>
+                        <h3 class="footer__title">Envíos</h3>
+                            <ul class="footer__links">
+                                <li class="footer__information">
+                                    Envíos gratis a <br>
+                                    todo México 
+                                </li>
+
+                        
+                            </ul>
+                    </div>                    
+                    
+                    <div>
+                        <h3 class="footer__title">Redes Sociales</h3>
+
+                            <ul class="footer__social">
+                                <a href="https://www.tiktok.com/@artebymm_?refer=creator_embed" target="_blank" class="footer__social-links">
+                                    <i class="ri-tumblr-fill"></i>
+                                </a>
+                                
+                                <a href="https://www.instagram.com/artebymm/" target="_blank" class="footer__social-links">
+                                    <i class="ri-instagram-fill"></i>
+                                </a>
+
+                            </ul>
+                    </div>
+                </div>
+
+                <img src="assets/img-artebymm/pinceles.png" alt="footer image" class="footer__onion" id="pinceles__footer">
+                <img src="assets/img-artebymm/godete.png" alt="footer image" class="footer__spinach" id="godete__footer">
+                <img src="assets/img-artebymm/pincel-4.png" alt="footer image" class="footer__leaf" >
+            </div>
+
+            <div class="footer__info container">
+                <div class="footer__card">
+                    <img src="assets/img-artebymm/footer-card-1.png" alt="footer image">
+                    <img src="assets/img-artebymm/footer-card-2.png" alt="footer image">
+                    <img src="assets/img-artebymm/footer-card-3.png" alt="footer image">
+                </div>
+
+                <span class="footer__copy">
+                    &#169; Copyright paulomh. All rights reserved
+                </span>
+            </div>
+        </footer>
+
+        <!--========== SCROLL UP ==========-->
+        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
